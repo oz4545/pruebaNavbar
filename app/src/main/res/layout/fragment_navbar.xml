@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HcursosActivity"
+    android:background="@color/morado">
+
+    <!-- Imagen en la esquina superior izquierda -->
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/imagelogo" />
+
+    <!-- Nombre "Coden" -->
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#989898"
+        android:textColorLink="#FFFFFF"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/fotoperfil"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Icono de estado activo -->
+    <ImageView
+        android:id="@+id/imageViewStatus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/punverde"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="260dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Esteban Serrato"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/imagenotificaiones"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="373dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/notificacion" />
+</FrameLayout>

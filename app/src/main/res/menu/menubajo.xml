@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemHome"
+        android:title="Home"
+        android:icon="@drawable/homicon" />
+    <item
+        android:id="@+id/itemRanking"
+        android:title="Ranking"
+        android:icon="@drawable/rankicon"/>
+    <item
+        android:id="@+id/itemLogros"
+        android:title="Logros"
+        android:icon="@drawable/logroiconn"/>
+    <item
+        android:id="@+id/itemArticulos"
+        android:title="Articulos"
+        android:icon="@drawable/articonn"/>
+</menu>

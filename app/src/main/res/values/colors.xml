@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Cuno">#07ECE4</color>
+    <color name="Cdos">#0009B8</color>
+    <color name="Ctres">#C30AE4</color>
+    <color name="morado">#561873</color>
+
+</resources>
